@@ -4,10 +4,7 @@ import os
 from os import listdir
 from matplotlib import pyplot as plt
 from skimage import img_as_ubyte, io
-
 from pathlib import Path
-
-
 import content as opt
 import content as ba
 import content as tv
@@ -22,11 +19,11 @@ weight_strategy_value = 3  # Weight strategy value for illumination map optimiza
 brightness_adjustment_value = 0.15  # Brightness adjustment value for gamma correction
 sigma_value = 0.001  # Sigma value for NLMeans denoising
 
+
 def is_valid_image_file(filename):
     """
     Check if the filename has a valid image extension.
-
-    Args:
+    Arguments:
     filename (str): The name of the file.
 
     Returns:
