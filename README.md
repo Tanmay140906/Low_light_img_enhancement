@@ -1,4 +1,4 @@
-# Low_light_img_enhancement
+# Low Light Image Enhancement
 inspired by the LIME (Low-Light Image Enhancement) paper. The code includes functionalities for gradient computation, weight initialization, and TV (Total Variation) denoising.
 
 ## Requirements
