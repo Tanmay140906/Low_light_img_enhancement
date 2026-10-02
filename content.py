@@ -6,7 +6,6 @@ from scipy.sparse.linalg import spsolve
 from bm3d import bm3d
 from typing import Union,Tuple
 
-
 def bool_image(file_name: str) -> bool:
     """Checks if a file is of 'bmp', 'jpg', 'png' or 'tif' format.
 
