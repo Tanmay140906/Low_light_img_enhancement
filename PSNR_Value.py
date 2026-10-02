@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def calculate_psnr(reference_image_path, denoised_image_path):
     """
     Calculate the PSNR (Peak Signal-to-Noise Ratio) between two images.
